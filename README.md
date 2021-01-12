@@ -5,7 +5,7 @@ StudySe is formerly known as SBP institute a decade old institution, was founded
 ## Getting Started
 
 
-| ------------- | ------------- |
+
 | <img src="screenshot\screen-1.png" width="25%" height="auto">  | <img src="screenshot\screen-2.png" width="25%" height="auto">  |
 | <img src="screenshot\screen-3.png" width="25%" height="auto">  | <img src="screenshot\screen-4.png" width="25%" height="auto">  |
 
