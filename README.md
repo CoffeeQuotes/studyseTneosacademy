@@ -1,9 +1,13 @@
-# studyse
+# App (Flutter) Tneos StudySe
 
 StudySe is formerly known as SBP institute a decade old institution, was founded in 2007. Ever since its emergence it has unparalleled track record of success. Today, StudySe stands tall among the reputed institutes providing coaching for Defence services and other competitive examination.
 
 ## Getting Started
 
+<img src="screenshot\screen-1.png" width="25%" height="auto">
+<img src="screenshot\screen-2.png" width="25%" height="auto">
+<img src="screenshot\screen-3.png" width="25%" height="auto">
+<img src="screenshot\screen-4.png" width="25%" height="auto">
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
