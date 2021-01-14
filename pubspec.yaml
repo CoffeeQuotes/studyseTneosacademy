@@ -38,6 +38,7 @@ dependencies:
   flutter_gradients: ^1.0.0+2
   social_share: ^2.0.5
   dart_date: ^1.0.9
+  lottie: ^0.7.0+1
 
 
 dev_dependencies:

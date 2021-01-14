@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_gradients/flutter_gradients.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'package:lottie/lottie.dart';
 import 'package:share/share.dart';
 import 'package:studyse/model/courses.dart';
 import 'package:studyse/network_utils/api.dart';
@@ -216,7 +217,14 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                             ),
                           );
                         } else if (snapshot.hasError) {
-                          return Center(child: Text("Error"));
+                          return Center(
+                              child: Column(
+                                children: [
+                                  Lottie.network("https://assets3.lottiefiles.com/packages/lf20_ir4sjrwh.json"),
+                                  Text("Network Error !", style: TextStyle(color: Colors.redAccent, fontSize: 28, fontFamily: "Montserrat", fontWeight: FontWeight.w800),)
+                                ],
+                              ),
+                          );
                         } else {
                           if (snapshot.hasData && snapshot.data.isNotEmpty) {
                             return ListView.builder(
@@ -567,7 +575,11 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                           } else {
                             return Container(
                               child: Center(
-                                child: Text("Sorry Content Not Available"),
+                                child: Column(
+                                  children: [
+                                    Lottie.network("https://assets6.lottiefiles.com/packages/lf20_afwjhfb2.json"),
+                                  ],
+                                ),
                               ),
                             );
                           }
@@ -588,7 +600,14 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                             ),
                           );
                         } else if (snapshot.hasError) {
-                          return Center(child: Text("Error"));
+                          return Center(
+                              child:  Column(
+                                children: [
+                                  Lottie.network("https://assets3.lottiefiles.com/packages/lf20_ir4sjrwh.json"),
+                                  Text("Network Error !", style: TextStyle(color: Colors.redAccent, fontSize: 28, fontFamily: "Montserrat", fontWeight: FontWeight.w800),)
+                                ],
+                              ),
+                          );
                         } else {
                           if (snapshot.hasData && snapshot.data.isNotEmpty) {
                             return Container(
@@ -621,9 +640,12 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                           } else {
                             return Container(
                               child: Center(
-                                child: Text("Sorry Content Not Available"),
+                                child: Column(
+                                children: [
+                                Lottie.network("https://assets6.lottiefiles.com/packages/lf20_afwjhfb2.json"),
+                        ],
                               ),
-                            );
+                            ) );
                           }
                         }
                       }
